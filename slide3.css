@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+.backgrd{
+    background-image: url(./images/Screenshot\ \(403\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:80%;
+    height: 100%;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+.Card-add{
+    color: #f52e27;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid #f52e27;
+    border-radius: 12px;
+    background-color: white;
+    height: 220px;
+    width: 450px;
+    padding: 15px;
+    z-index: 3;
+    line-height: 50px;
+    position: absolute;
+    margin-left:250px;
+    margin-top: 150px;
+    top: 200px;
+    left: 480px;
+    box-shadow: 10px 10px 10px #aaa7a7;
+}
+.list {
+    transform: scaleX(1.7) scaleY(2);
+    border: thin solid #f52e27;
+    box-shadow: 2px 2px 3px #d6d0d0;
+}
+.btn {
+    margin-top: 30px;
+    transform: scale(1.5);
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: #f52e27;
+    padding: 5px 15px;
+}

@@ -1,0 +1,90 @@
+.ui {
+    /* margin: 5% 10%; */
+    /* border: 1px solid black; */
+    height: 480px;
+}
+.header{
+    display: flex;
+    /* position: relative;
+    left: 39%; */
+    height: 250px;
+
+}
+.add {
+    display: inline-block;
+    margin-left: 100px;
+}
+.add-logo{
+    position: relative;
+    top: -10px;;
+    left: 190px;
+    align-items: center;
+    left: 40%;
+    bottom: 70px;
+}
+.add-logo2{
+    position: absolute;
+    top: 390px;
+    left: 288px;
+    bottom: 10px;
+
+    
+}
+.title-trip {
+    text-decoration: line-through;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.title-trip-space {
+    text-decoration: line-through;
+    font-weight: 100;
+    color: gray;
+}
+.Top_title{
+    top: 55px;
+    position: relative;
+    font-size: 70px;
+    font-weight: bolder;
+    align-items: center;
+    position: relative;
+    left: 30%;
+}
+.title{
+    justify-self: center;
+}
+.add-text{
+    position: relative;
+    top: -14px;
+    left: 35%;
+    font-size: 41px;
+    color: rgb(104, 102, 102);
+}
+.cards-container {
+    position: relative;
+    top: -100px;
+    left: 36%;
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 795px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.cards {
+    display: inline-block;
+    /* margin-top: 30px; */
+    padding: 5px;
+    font-size: 35px;
+    border: 1px solid #f52e27;
+    height: 460px;
+    width: 460px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #d6d0d0;
+  }
+  .task-body{
+    color: red;
+}
+.task-title{
+    color: rgb(252, 74, 74);
+    font-weight: 20%;
+}
